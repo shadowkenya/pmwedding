@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
 
     // --- Countdown Timer ---
-    const weddingDate = new Date("Dec 12, 2026 1:00:00").getTime();
+    const weddingDate = new Date("Dec 20, 2025 1:00:00").getTime();
     const timerInterval = setInterval(() => {
         const now = new Date().getTime();
         const distance = weddingDate - now;
@@ -137,4 +137,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         isPlaying = !isPlaying;
     });
+
 });
